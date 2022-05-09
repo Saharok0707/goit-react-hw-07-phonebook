@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Filter.module.css';
 import PropTypes from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
-// import { contactsSelectors, contactsActions } from 'redux/contacts';
 import { getFilter } from 'redux/selectors';
 import { changeFilter } from 'redux/actions';
 
